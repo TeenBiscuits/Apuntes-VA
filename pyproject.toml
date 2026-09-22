@@ -1,0 +1,25 @@
+[project]
+name = "apuntes-va"
+version = "0.1.0"
+description = "Apuntes interactivos para la asignatura Visión Artificial"
+readme = "README.md"
+authors = [
+    { name = "Pablo Portas López", email = "81629707+TeenBiscuits@users.noreply.github.com" }
+]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "marimo[recommended]",
+    "marimo-book[social,linkcheck]>=0.1.45,<0.2",
+]
+
+[project.scripts]
+dev = "apuntes_va.tasks:dev"
+edit = "apuntes_va.tasks:edit"
+build = "apuntes_va.tasks:build"
+check = "apuntes_va.tasks:check"
+clean = "apuntes_va.tasks:clean"
+release = "apuntes_va.tasks:release"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

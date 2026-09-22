@@ -1,0 +1,25 @@
+title: Apuntes VA
+description: Apuntes interactivos para la asignatura Visión Artificial.
+url: https://uvea.pablopl.dev
+authors:
+  - name: Pablo Portas López
+
+# Keep the local edit/build loop independent of native image libraries and
+# external network checks. Production uses book.yml instead.
+social_cards: false
+check_external_links: false
+
+repo: https://github.com/TeenBiscuits/Apuntes-VA
+branch: main
+
+launch_buttons:
+  molab: true
+  github: true
+  download: true
+
+dependencies:
+  mode: env
+
+toc:
+  - file: content/intro.md
+  - file: content/example.py
