@@ -1,6 +1,10 @@
 title: Apuntes VA
 description: Apuntes interactivos para la asignatura Visión Artificial.
 url: https://uvea.pablopl.dev
+copyright: >-
+  © 2026 Pablo Portas López · Contenido bajo
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  · Código bajo <a href="https://opensource.org/license/mit/">MIT</a>
 authors:
   - name: Pablo Portas López
 

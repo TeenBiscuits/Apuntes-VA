@@ -53,3 +53,7 @@ brew install cairo pango
 - `content/` — your `.md` and marimo `.py` chapters
 - `.github/workflows/deploy.yml` — builds and publishes to GitHub Pages
   on every push to `main` (edit or delete as needed)
+
+## License
+
+The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE-CONTENT.md), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).

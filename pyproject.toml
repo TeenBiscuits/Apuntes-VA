@@ -3,6 +3,8 @@ name = "apuntes-va"
 version = "0.1.0"
 description = "Apuntes interactivos para la asignatura Visión Artificial"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.md"]
 authors = [
     { name = "Pablo Portas López", email = "81629707+TeenBiscuits@users.noreply.github.com" }
 ]
